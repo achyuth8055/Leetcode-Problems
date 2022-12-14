@@ -21,7 +21,8 @@ public class Subarray_with_given_sum{
         for(int i=0; i<size; i++)
         {
             int sum = 0;
-          for(int j=i;j<size;j++){                        
+          for(int j=i;j<size;j++){
+                        
                 sum = sum + arr[j];
                /// System.out.print(sum + " ");
                if(find == arr[i]){out[0] = i;}
@@ -36,7 +37,10 @@ public class Subarray_with_given_sum{
            
         }//end of for loop
 
-        System.out.println(out[0] + " " + out[1]);          
-         
+        System.out.println(out[0] + " " + out[1]);
+           
+                  
+        
+      
     }
 }

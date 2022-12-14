@@ -1,11 +1,7 @@
-//Given a string s consisting of words and spaces, return the length of the last word in the string.
-//A word is a maximal substring consisting of non-space characters only.
-// EX: I/P Hellow Achyuth 
-// Ex: O/P : 7
-
 import java.util.*;
+
 public class  Length_of_Last_Word{
-    
+
     public static void main(String[] args) {
              
                 Scanner sc = new Scanner(System.in);

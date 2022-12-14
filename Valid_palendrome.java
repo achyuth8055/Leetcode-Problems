@@ -1,9 +1,7 @@
-// input ex : Race car    input: Achyuth
-// output : true          output:False
 import java.util.*;
 public class Valid_palendrome{
     public static void main(String[] args) {
-        
+        // sdhgfsdhfgshdgfhsdgfhsdg
         System.out.println("enter the stirng name :");
         Scanner sc =new Scanner(System.in);
         String str = sc.nextLine().toLowerCase();  

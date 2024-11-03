@@ -1,0 +1,49 @@
+This week, we will work on Environment Variable and SetUID lab. You can find the lab description and lab setup file at https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/
+
+
+
+The lab description is divided into a set of Lab Tasks (9 tasks). Please work on the attached Lab answer sheet. Fill in your observation and conclusion of each task and attach the screen image with an appropriate title at the end of file.
+
+
+
+
+
+I may provide announcements giving updates or clarifications to the lab assignment each week. Please check your email regularly.
+
+
+
+Please click the title to submit your lab report.
+
+
+help me to complete this assignment
+Task 1: No questions to answer.
+Task 2: Compare the output of the program that uses fork() to start a new process for the two cases
+(step 1: print child’s variables, step 2: print parent’s variables):
+__________________________________________________________________________________
+Task 3: Describe the difference between running the program with “NULL” versus “environ” as the third
+argument to execve(). Based on this, state how newly started programs receive their environment
+variable values.
+__________________________________________________________________________________
+Task 4: What does running this program verify about how the system() function works?
+__________________________________________________________________________________
+Task 5: Are all the environment variables you export in the shell received by the SetUID program? Is this
+what you expected? Why do you think this is or is not the case?
+__________________________________________________________________________________
+Task 6: How were you able to make the program run a program of your choice? Show the input you
+gave to do so. By making the program SetUID with owner “root”, could you make the selected program
+run with root privileges? Why or why not?
+__________________________________________________________________________________
+Page 1 of 3
+Task 7: What is the difference in behavior of the program in the four given scenarios? Explain the
+differences. What experiment did you run to find this out?
+__________________________________________________________________________________
+Task 8 step 1: Were you able to make the program delete a file that does not belong to your user? If so,
+give the input you gave. If not, explain why not.
+__________________________________________________________________________________
+Task 8 step 2: Could you do anything with the first version of the program that could not be done with
+the execve() version? Explain.
+__________________________________________________________________________________
+Task 9: When you make the program SetUID with owner “root”, is the “Malicious” data written to the
+file? Explain why or why not.
+__________________________________________________________________________________
+Page 2 of 3

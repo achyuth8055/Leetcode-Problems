@@ -4,3 +4,7 @@ iface enp0s3 inet static
     netmask 255.255.255.0
     gateway 192.168.1.1    # Replace with your network's gateway IP
     dns-nameservers 8.8.8.8 8.8.4.4  # DNS servers (Google's DNS as an example)
+
+
+sudo ip link set enp0s3 down
+sudo ip link set enp0s3 up
